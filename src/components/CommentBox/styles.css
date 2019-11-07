@@ -10,7 +10,7 @@
     border-radius: 50%;
 }
 
-.comment-box div {
+.comment-box .comment-container {
     padding: 10px;
     background: #F2F3F5;
     border-radius: 18px;
@@ -39,4 +39,26 @@
 
 .comment-box div span {
     color: #535557;
+}
+
+.comment-options {
+    padding-left: 4px;
+}
+
+.comment-options button {
+    color: #535557;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.comment-options button:hover {
+    color: #385898;
+}
+
+.comment-options span {
+    cursor: default;
+    color: #777 !important;
 }
