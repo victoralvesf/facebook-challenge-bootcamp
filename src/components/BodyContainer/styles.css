@@ -1,0 +1,9 @@
+.body-container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 111px);
+    max-height: fit-content;
+    background: #ddd;
+    padding: 20px 0px;
+    flex-direction: column;
+}

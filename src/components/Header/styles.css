@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Facebook';
+    src: url('../../assets/fonts/facebook.otf');
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    padding: 20px 120px;
+    background: #4367B2;
+    color: #fff;
+    position: relative;
+}
+
+.app-header .logo {
+    font-family: 'Facebook', sans-serif;
+    font-size: 30px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.account * {
+    padding: 0px 5px;
+    font-weight: bold;
+}
+
+.account .icon {
+    width: 24px;
+}
