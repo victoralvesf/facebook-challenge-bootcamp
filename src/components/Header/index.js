@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="app-header">
-          <span className="logo">facebook</span>
+          <span className="logo">codebook</span>
           <div className="account">
               <span>Meu perfil</span>
               <img src={Account} alt="Conta" className="icon"/>

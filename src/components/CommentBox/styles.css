@@ -1,11 +1,12 @@
 .comment-box {
     display: flex;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .comment-box img {
-    width: 35px;
-    height: 35px;
+    width: 35px !important;
+    height: 35px !important;
     margin-right: 10px;
     border-radius: 50%;
 }
@@ -52,6 +53,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 13px;
+    outline: none;
 }
 
 .comment-options button:hover {
@@ -61,4 +63,9 @@
 .comment-options span {
     cursor: default;
     color: #777 !important;
+}
+
+.comment-options .date {
+    color: #535557 !important;
+    font-size: 12px;
 }
